@@ -11,10 +11,24 @@ namespace Snake
         public int y;
         public char sumb;
 
-        public void Draw(int x, int y, char symb)
+        public Point()
+        {
+            x = 0;
+            y = 0;
+            sumb = ' ';
+        }
+
+        public Point(int _x, int _y, char _sumb)
+        {
+            x = _x;
+            y = _y;
+            sumb = _sumb;
+        }
+
+        public void Draw()
         {
             Console.SetCursorPosition(x, y);
-            Console.Write(symb);
+            Console.Write(sumb);
         }
     }
 }
