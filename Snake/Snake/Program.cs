@@ -9,8 +9,6 @@ namespace Snake
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("HW !");
-            Console.ReadLine();
         }
     }
 }
