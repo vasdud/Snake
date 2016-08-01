@@ -12,7 +12,7 @@ namespace Snake
             HorizontalLine aLineH = new HorizontalLine(5, 10, 8, '_');
             aLineH.Draw();
 
-            VerticalLine aLineV = new VerticalLine(5, 2, 7, '*');
+            VerticalLine aLineV = new VerticalLine(5, 2, 5, '*');
             aLineV.Draw();
 
             Console.ReadLine();
